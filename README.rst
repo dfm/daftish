@@ -14,8 +14,7 @@ First, ``cd`` into your Sphinx-generated docs directory and clone the
 
 ::
 
-    mkdir _themes
-    git clone https://github.com/dfm/daftish.git _themes/daftish
+    git clone https://github.com/dfm/daftish.git _themes
 
 Add these lines to your Sphinx ``conf.py`` script:
 
