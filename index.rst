@@ -23,7 +23,7 @@ Add these lines to your Sphinx ``conf.py`` script:
     html_theme = "daftish"
     html_theme_path = ["_themes"]
     html_theme_options = {
-            "tagline": "Beautiful.",
+            "tagline": "Beautiful Sphinx-generated documentation.",
             "github": "https://github.com/dfm/daftish",
             "license_name": "CC Attribution 3.0 License",
             "license_link": "http://creativecommons.org/licenses/by/3.0/deed.en_US",
