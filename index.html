@@ -1,0 +1,126 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>The Daftish Documentation Theme &mdash; Daftish  documentation</title>
+    
+    <link rel="stylesheet" href="_static/daft.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Daftish  documentation" href="#" />
+     
+
+    <link rel="shortcut icon" href="_static/favicon.png">
+    <link rel="stylesheet" href="_static/code.css" type="text/css" />
+
+
+  </head>
+  <body>  
+
+    <div class="document">
+
+<div class="main-logo">
+    <h1><a href="#">Daftish</a></h1>
+    <h2>Beautiful Sphinx-generated documentation.</h2>
+</div>
+
+
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="the-daftish-documentation-theme">
+<h1>The Daftish Documentation Theme<a class="headerlink" href="#the-daftish-documentation-theme" title="Permalink to this headline">¶</a></h1>
+<p>This is a theme for <a class="reference external" href="http://sphinx-doc.org/">Sphinx-generated documentation</a>
+based on the <a class="reference external" href="http://daft-pgm.org">Daft</a> website. It&#8217;s licensed under the
+<a class="reference external" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 License</a>.</p>
+<div class="section" id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
+<p>First, <tt class="docutils literal"><span class="pre">cd</span></tt> into your Sphinx-generated docs directory and clone the
+<tt class="docutils literal"><span class="pre">daftish</span></tt> repository:</p>
+<div class="highlight-python"><pre>git clone https://github.com/dfm/daftish.git _themes</pre>
+</div>
+<p>Add these lines to your Sphinx <tt class="docutils literal"><span class="pre">conf.py</span></tt> script:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">html_theme</span> <span class="o">=</span> <span class="s">&quot;daftish&quot;</span>
+<span class="n">html_theme_path</span> <span class="o">=</span> <span class="p">[</span><span class="s">&quot;_themes&quot;</span><span class="p">]</span>
+<span class="n">html_theme_options</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s">&quot;tagline&quot;</span><span class="p">:</span> <span class="s">&quot;Beautiful Sphinx-generated documentation.&quot;</span><span class="p">,</span>
+        <span class="s">&quot;github&quot;</span><span class="p">:</span> <span class="s">&quot;https://github.com/dfm/daftish&quot;</span><span class="p">,</span>
+        <span class="s">&quot;license_name&quot;</span><span class="p">:</span> <span class="s">&quot;CC Attribution 3.0 License&quot;</span><span class="p">,</span>
+        <span class="s">&quot;license_link&quot;</span><span class="p">:</span> <span class="s">&quot;http://creativecommons.org/licenses/by/3.0/deed.en_US&quot;</span><span class="p">,</span>
+        <span class="c"># &quot;google_analytics&quot;: &quot;UA-XXXXXXXX-1&quot;,</span>
+    <span class="p">}</span>
+<span class="n">html_sidebars</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s">&quot;**&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s">&quot;relations.html&quot;</span><span class="p">,</span> <span class="s">&quot;searchbox.html&quot;</span><span class="p">]</span>
+        <span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper"><div class="related">
+</div><div id="searchbox" style="display: none">
+    <form class="search" action="search/" method="get">
+        <input type="text" name="q" class="searchfield" placeholder="Search..." />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+
+    <div class="footer">
+        Copyright 2012, Dan Foreman-Mackey. Released under
+            <a href="http://creativecommons.org/licenses/by/3.0/deed.en_US">CC Attribution 3.0 License</a>.
+    </div>
+
+    <a href="https://github.com/dfm/daftish" class="github">
+        <img style="position: absolute; top: 0; right: 0; border: 0;"
+            src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"
+            alt="Fork me on GitHub" class="github"/>
+    </a>
+
+    
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-22909046-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+    
+  </body>
+</html>
