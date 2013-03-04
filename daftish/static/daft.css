@@ -19,6 +19,9 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbe0df', endColorstr='#dbe0df',GradientType=1 );
 }
 
+
+/* BASICS */
+
 a {
     color: #383;
     text-decoration: underline;
@@ -27,6 +30,21 @@ a {
 a:hover {
     color: #5a5;
 }
+
+h2 {
+    font-size: 1.5em;
+    padding: 0;
+    margin: 25px 0 3px;
+}
+
+h3 {
+    font-size: 1.2em;
+    padding: 0;
+    margin: 25px 0 3px;
+}
+
+
+/* SPECIFICS */
 
 a.headerlink {
     padding-left: 10px;
