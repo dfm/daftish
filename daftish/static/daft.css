@@ -43,6 +43,11 @@ h3 {
     margin: 25px 0 3px;
 }
 
+img {
+    max-width: 600px;
+    border: 1px solid #888;
+}
+
 
 /* SPECIFICS */
 
